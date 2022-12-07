@@ -1,0 +1,115 @@
+a:link {
+  color: black;
+  padding: 0.7em;
+  background-color: #D9E3DA;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.87em;
+}
+
+a:visited {
+  color: black;
+}
+
+body {
+  font-family: 'Abel', sans-serif;
+  background-color: #EDEDED;
+}
+
+.lower {
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+}
+
+h1, #lower-under {
+  padding-bottom: 0.3em;
+}
+
+p, li {
+  font-size: 1.1em
+}
+
+#navbar {
+  position: relative;
+  width: 25%;
+  padding-top: 0.02px;
+}
+
+#main-doc {
+  position: absolute;
+  left: 30%;
+  top: 0;
+  width: 70%;
+  padding-right: 1em;
+  padding-top: 0.4em;
+
+}
+
+.bold {
+  font-weight: bold;
+}
+
+img {
+  width: 60%;
+}
+
+.nav-link {
+display: block;
+padding-left: 0.3em;
+border: 1px dotted black;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+@media (max-width:769px) and (min-width: 481px) {
+  img {
+    width: 100%
+  }
+  #main-doc {
+    left: 43%;
+    width: 90%;
+  }
+
+  #navbar {
+    width: 40%
+  }
+}
+
+
+@media (max-width:501px) {
+  #navbar {
+  position: relative;
+}
+
+#main-doc {
+  position: absolute;
+  left: auto;
+  right: auto;
+  top: 29.5em;
+  width: 100%;
+
+}
+
+img {
+ min-width: 95%;
+ max-width: 95%;
+}
+
+#navbar {
+  width: 100%;
+  height: 10em;
+  display: flex;
+  flex-direction: column;
+}
+
+a:link {
+   text-align: center;
+   font-size: 1em
+}
+
+.nav-links {
+  width: 100%;
+}
+
+}
+
